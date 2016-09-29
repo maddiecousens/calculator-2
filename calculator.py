@@ -17,11 +17,11 @@ while run:
     if tokens[0] == "q":
         run = False
     elif tokens[0] == "+":
-        print add(args[0], args[1])
+        print add(args)
     elif tokens[0] == "-":
-        print subtract(args[0], args[1])
+        print subtract(args)
     elif tokens[0] == "*":
-        print multiply(args[0], args[1])
+        print multiply(args)
     elif tokens[0] == "/":
         print divide(args[0], args[1])
     elif tokens[0] == "square":
